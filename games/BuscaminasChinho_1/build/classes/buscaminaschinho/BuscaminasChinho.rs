@@ -1,0 +1,4 @@
+buscaminaschinho.GameFacil
+buscaminaschinho.GameDificil
+buscaminaschinho.BuscaminasChinho
+buscaminaschinho.GameMedia

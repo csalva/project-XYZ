@@ -1,0 +1,6 @@
+test1  20
+test3  22
+test2  28
+cris  40
+laura  30
+viñi  34

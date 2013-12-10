@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>{ Código Jerry - Triqui }</title>
+<script type="text/javascript">
+
+ 
+
+</script>
+</head>
+<body>
+<script src="/project-xyz/games/triqui/triqui.js"></script>
+<center>
+<table border="1">
+<tr>
+<td style="border-style:solid;border-left-color:black;border-top-color:black;"><img src="fondo.PNG" id="c0" onclick="box(0)" /></td>  
+<td style="border-style:solid;border-left-color:black;border-top-color:black;"><img src="fondo.PNG" id="c1" onclick="box(1)" /></td>  
+<td style="border-style:solid;border-right-color:black;border-left-color:black;border-top-color:black;"><img src="fondo.PNG" id="c2" onclick="box(2)" /></td>  
+</tr>
+<tr>
+<td style="border-style:solid;border-left-color:black;border-top-color:black;"><img src="fondo.PNG" id="c3" onclick="box(3)" /></td>  
+<td style="border-style:solid;border-left-color:black;border-top-color:black;"><img src="fondo.PNG" id="c4" onclick="box(4)" /></td>  
+<td style="border-style:solid;border-right-color:black;border-left-color:black;border-top-color:black;"><img src="fondo.PNG" id="c5" onclick="box(5)" /></td>  
+</tr>
+<tr>
+<td style="border-style:solid;border-left-color:black;border-top-color:black;border-bottom-color:black;"><img src="fondo.PNG" id="c6" onclick="box(6)" /></td>  
+<td style="border-style:solid;border-left-color:black;border-top-color:black;border-bottom-color:black;"><img src="fondo.PNG" id="c7" onclick="box(7)" /></td>  
+<td style="border-style:solid;border-right-color:black;border-left-color:black;border-top-color:black;border-bottom-color:black;"><img src="fondo.PNG" id="c8" onclick="box(8)" /></td>  
+</tr>
+<tr>
+<td>--------------</td>
+<td>--------------</td>
+<td>--------------</td>
+</tr>
+<tr>
+  <th>Jugador 1</th>  
+  <td>&nbsp;</td>  
+  <th>Jugador 2</th>  
+</tr>
+<tr>
+  <td><img src="x.PNG" /></td>  
+  <td><img src="limpiar.png" id="reset" onclick="limpiar()" onmouseout="suelta()" /></td>  
+  <td><img src="bola.PNG" /></td>  
+</tr>
+<tr>
+  <td><div id="ptsjug1" style="font-weight:bold;text-align:center;">0</div></td>  
+  <td>&nbsp;</td>  
+  <td><div id="ptsjug2" style="font-weight:bold;text-align:center;">0</div></td>  
+</tr>
+</table>
+<br/ >
+<input type="button" value="Reiniciar puntaje" onclick="reiniciar()" />
+</center>
+</body>
+</html>
